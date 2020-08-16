@@ -26,6 +26,7 @@ resource "null_resource"  "commands" {
         "sudo yum install -y epel-release -y",
         "sudo cp  /tmp/r1soft.repo  /etc/yum.repos.d/r1soft.repo",
         "sudo yum install serverbackup-enterprise -y",
+        
         ]
     }
 }
